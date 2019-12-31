@@ -86,8 +86,9 @@ import edu.pitt.dbmi.nlp.noble.util.UITools;
  * wrapper class that wraps NobleCoderTerminology to do stand-alon concept coding.
  *
  * @author tseytlin
+ * 12/31/2019: recompiled
  */
-public class NobleCoderTool implements ActionListener{
+public class NobleCoderTool implements ActionListener {
 	private final URL LOGO_ICON = getClass().getResource("/icons/NobleLogo256.png");
 	private final URL IMPORT_ICON = getClass().getResource("/icons/Import16.gif");
 	private final URL EXPORT_ICON = getClass().getResource("/icons/Export16.gif");
