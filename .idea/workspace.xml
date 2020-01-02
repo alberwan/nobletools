@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a37f4458-0304-45b2-88b1-c0f9e019c671" name="Default" comment="Instance - during number upgrade consider new windowSize and action information as well as satisfiability&#10;ConText.getTargetMentionsInRange() - created a static method to asses targets within window size">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nobletools.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/desc/aggregate/NobleCoderPipeline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/desc/primitive/NobleCoderEntityAnnotator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/desc/primitive/NobleCoderSentenceAnnotator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/desc/types/TypeSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/metadata/install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/DocumentStructureAnnotator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/NobleCoderUimaAnnotator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/NobleMentionsAnnotator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Concept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Concept_Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Modifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Modifier_Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Part.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Part_Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Section.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Section_Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/SemanticType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/SemanticType_Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Sentence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/Sentence_Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/SynopticSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/java/edu/pitt/dbmi/nlp/noble/uima/types/SynopticSection_Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/resources/edu/pitt/dbmi/nlp/noble/uima/types/TypeSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin-uima/src/main/uima.iml" beforeDir="false" />
     </list>
     <list id="7862b3a0-d48e-4dc8-ac80-1d4226692b0a" name="Failed commit: re-organization" comment="re-organization" />
     <list id="f191e77f-c034-4898-98d8-9b33493655f9" name="re-organization" comment="" />
@@ -37,11 +67,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>target</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +75,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -282,7 +308,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35051546" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -455,19 +481,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="gate" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -752,7 +765,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499460027536</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Instance - during number upgrade consider new windowSize and action information as well as satisfiability&#10;ConText.getTargetMentionsInRange() - created a static method to asses targets within window size">
+      <created>1577716337813</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1577716337813</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -760,7 +780,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
